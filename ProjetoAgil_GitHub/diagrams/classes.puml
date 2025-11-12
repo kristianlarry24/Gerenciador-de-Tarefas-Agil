@@ -1,0 +1,19 @@
+@startuml
+title Diagrama de Classes - Gerenciador de Tarefas
+class Tarefa {
+  +int id
+  +string titulo
+  +string descricao
+  +string status
+  +criar()
+  +atualizar()
+  +deletar()
+}
+class RepositorioTarefas {
+  +salvar(t: Tarefa)
+  +buscar(id)
+  +listar()
+  +remover(id)
+}
+Tarefa --> RepositorioTarefas
+@enduml

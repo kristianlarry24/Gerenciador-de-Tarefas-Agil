@@ -1,0 +1,10 @@
+@startuml
+title Casos de Uso - Gerenciador de Tarefas
+actor "Usuário" as User
+rectangle "Sistema de Tarefas" {
+  User -- (Criar Tarefa)
+  User -- (Listar Tarefas)
+  User -- (Atualizar Tarefa)
+  User -- (Deletar Tarefa)
+}
+@enduml
