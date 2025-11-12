@@ -2,7 +2,7 @@ import os
 import tempfile
 import json
 import pytest
-from app import app, init_db, DATABASE
+from Gerenciador_de_Tarefas_Agil.app import app, init_db, DATABASE
 
 @pytest.fixture
 def client(tmp_path, monkeypatch):
