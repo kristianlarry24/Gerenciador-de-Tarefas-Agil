@@ -4,13 +4,13 @@ import os
 # Adiciona o caminho da pasta do projeto ao Python
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from Gerenciador_de_Tarefas_Agil.app import app, init_db, DATABASE
+from app import app, init_db, DATABASE
 
 import os
 import tempfile
 import json
 import pytest
-from Gerenciador_de_Tarefas_Agil.app import app, init_db, DATABASE
+from app import app, init_db, DATABASE
 
 @pytest.fixture
 def client(tmp_path, monkeypatch):
