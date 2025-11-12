@@ -42,21 +42,3 @@ python app.py
 
 ---
 
-## 📸 Evidências no GitHub
-
-### 🧱 Figura 1 — Kanban do Projeto
-![Kanban](prints/kanban_projeto.png)
-> O quadro Kanban no GitHub mostra as colunas “To Do”, “In Progress” e “Done” com as tarefas organizadas durante o desenvolvimento.
-
----
-
-### 🧩 Figura 2 — Histórico de Commits
-![Commits](prints/commits_projeto.png)
-> Histórico de commits evidenciando a evolução do projeto e o uso de versionamento contínuo no GitHub.
-
----
-
-### ⚙️ Figura 3 — Workflow GitHub Actions
-![Actions](prints/github_actions_sucesso.png)
-> Execução bem-sucedida do pipeline de integração contínua (CI) configurado no GitHub Actions, validando os testes automatizados.
-
