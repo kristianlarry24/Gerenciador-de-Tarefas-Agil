@@ -21,4 +21,5 @@ jobs:
           pip install pytest
       - name: Run tests
         run: |
-          pytest -q
+          cd Gerenciador_de_Tarefas_Agil
+          pytest
