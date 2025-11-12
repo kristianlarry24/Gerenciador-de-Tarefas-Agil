@@ -1,5 +1,7 @@
 # Projeto Ágil no GitHub - Entrega Prática
 
+![Build Status](https://github.com/kristianlarry24/Gerenciador-de-Tarefas-Agil/actions/workflows/python-app.yml/badge.svg)
+
 Este repositório contém um projeto minimal de exemplo para a disciplina: um sistema básico de gerenciamento de tarefas (CRUD) com:
 - Flask (API)
 - SQLite (banco local)
